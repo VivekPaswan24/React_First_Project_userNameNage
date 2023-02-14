@@ -1,0 +1,52 @@
+.error {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  height: 40vh;
+  background-color: blue;
+  position: fixed;
+  top: 20%;
+  left: 30%;
+  z-index: 100;
+}
+.header {
+  background-color: #4f005f;
+  height: 30%;
+  width: 100%;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 10px;
+}
+.message {
+  background-color: aliceblue;
+  width: 100%;
+  height: 80%;
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px;
+}
+.footer {
+  background-color: #4f005f;
+  width: 100%;
+  height: 30%;
+}
+.okbtn {
+  background-color: aqua;
+  width: 15%;
+  position: relative;
+  top: 30px;
+  left: 83%;
+  border-radius: 8px;
+  border: none;
+}
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.75);
+}
