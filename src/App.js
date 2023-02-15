@@ -6,9 +6,9 @@ import { useState } from "react";
 function App() {
   const [userNameAndAge, setUserNameAndAge] = useState([]);
 
-  const userDetailsHandler = (uName, uAge) => {
+  const userDetailsHandler = (uName, uAge,uCollgeName) => {
     setUserNameAndAge((prevUsers) => {
-      return [...prevUsers, { name: uName, age: uAge, id:Math.random()}];
+      return [...prevUsers, { name: uName, age: uAge, college:uCollgeName, id:Math.random()}];
     });
   };
   return (
